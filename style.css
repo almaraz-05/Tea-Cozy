@@ -1,0 +1,12 @@
+* {
+
+}
+
+body {
+    background-color: black;
+}
+
+.logo img{
+    height: 50px;
+    margin-left: 10px;
+}
