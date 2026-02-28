@@ -10,6 +10,9 @@ body {
     opacity: 0.9;
 }
 
+
+
+/* Navigation bar*/
 .logo img{
     height: 50px;
     margin-left: 10px;
@@ -31,6 +34,9 @@ body {
     margin-right: 10px;
 }
 
+
+
+/* Our Mission Section */
 .upper-section {
     background-image: url("assets/images/img-mission-background.jpg");
     height: 700px;
@@ -45,4 +51,33 @@ body {
     background-color: black;
     text-align: center;
     width: 100%;
+}
+
+
+/* Tea of the month */
+
+.headings {
+    text-align: center;
+}
+
+.menu-photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.menu-item {
+    text-align: center;
+}
+
+.menu-item p {
+    margin-top: 10px;
+}
+
+.menu-photos img{
+    height: 200px;
+    width: 300px;
 }
